@@ -1,0 +1,15 @@
+{
+  "name": "hopper-documentation",
+  "description": "Catálogo do plugin hopper-documentation.",
+  "owner": {
+    "name": "Jonathan Honorio",
+    "url": "https://github.com/jonathanpah"
+  },
+  "plugins": [
+    {
+      "name": "hopper-documentation",
+      "source": "./",
+      "description": "Registra handoffs da conversa para outra pessoa ou IA continuar o trabalho, a pedido e antes da compactação."
+    }
+  ]
+}

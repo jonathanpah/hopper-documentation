@@ -1,0 +1,18 @@
+{
+  "name": "hopper-documentation",
+  "version": "0.1.0",
+  "description": "Records conversation handoffs so another person or AI can continue the work, on request and before compaction.",
+  "author": {
+    "name": "Jonathan Honorio",
+    "url": "https://github.com/jonathanpah"
+  },
+  "homepage": "https://github.com/jonathanpah/hopper-documentation",
+  "repository": "https://github.com/jonathanpah/hopper-documentation",
+  "license": "MIT",
+  "keywords": [
+    "documentation",
+    "handoff",
+    "continuity",
+    "compaction"
+  ]
+}

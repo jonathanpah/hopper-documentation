@@ -1,0 +1,42 @@
+name: "Bug report"
+description: "Report a reproducible problem in the skill, the program or the documentation."
+title: "Bug: "
+body:
+  - type: markdown
+    attributes:
+      value: "For suspected vulnerabilities, follow the [Security Policy](https://github.com/jonathanpah/hopper-documentation/security/policy) and [report privately](https://github.com/jonathanpah/hopper-documentation/security/advisories/new). Do not post security-sensitive details here."
+  - type: input
+    id: skill-version
+    attributes:
+      label: "Plugin version"
+      description: "Provide the release tag or commit, or say that it is unknown."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Environment"
+      description: "Name the host, its version, operating system, and which product (Claude Code or Codex, terminal or app) and the configured model and effort. Omit private paths and account details."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to reproduce"
+      description: "Give a minimal, redacted example. Identify the relevant skill rule, program behavior or documentation section."
+    validations:
+      required: true
+  - type: textarea
+    id: expected-observed
+    attributes:
+      label: "Expected and observed behavior"
+      description: "Separate what should have happened from what you observed."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Evidence and limitations"
+      description: "Include a short redacted excerpt or synthetic reproduction. State what was not observable or not verified. Do not upload credentials or private conversation histories."
+    validations:
+      required: true

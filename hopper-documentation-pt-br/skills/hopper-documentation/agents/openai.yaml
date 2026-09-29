@@ -1,0 +1,5 @@
+interface:
+  display_name: "hopper-documentation"
+  short_description: "Handoffs da conversa para dar continuidade"
+policy:
+  allow_implicit_invocation: true

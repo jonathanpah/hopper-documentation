@@ -1,0 +1,42 @@
+name: "Relato de bug"
+description: "Relate um problema reproduzível na skill, no programa ou na documentação."
+title: "Bug: "
+body:
+  - type: markdown
+    attributes:
+      value: "Em caso de suspeita de vulnerabilidade, siga a [Política de segurança](https://github.com/jonathanpah/hopper-documentation/security/policy) e [relate de forma privada](https://github.com/jonathanpah/hopper-documentation/security/advisories/new). Não publique aqui detalhes sensíveis de segurança."
+  - type: input
+    id: skill-version
+    attributes:
+      label: "Versão do plugin"
+      description: "Informe a tag da versão ou o commit, ou diga que não sabe."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Ambiente"
+      description: "Informe a ferramenta hospedeira, a versão dela, o sistema operacional, qual produto (Claude Code ou Codex, terminal ou aplicativo) e o modelo e o esforço configurados. Omita caminhos privados e detalhes da conta."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Passos para reproduzir"
+      description: "Dê um exemplo mínimo, com os dados sensíveis removidos. Identifique a regra da skill, o comportamento do programa ou a seção da documentação relevante."
+    validations:
+      required: true
+  - type: textarea
+    id: expected-observed
+    attributes:
+      label: "Comportamento esperado e observado"
+      description: "Separe o que deveria ter acontecido do que você observou."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Evidências e limitações"
+      description: "Inclua um trecho curto, com os dados sensíveis removidos, ou uma reprodução sintética. Informe o que não pôde ser observado ou não foi verificado. Não envie credenciais nem históricos privados de conversa."
+    validations:
+      required: true

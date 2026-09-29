@@ -1,0 +1,32 @@
+name: "Proposta de mudança"
+description: "Proponha uma melhoria concreta na skill ou na documentação dela."
+title: "Proposta: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problema"
+      description: "Identifique a regra ou o comportamento atual e o problema que isso causa."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-behavior
+    attributes:
+      label: "Comportamento proposto"
+      description: "Descreva o que deve mudar e qual resultado observável mostraria que o problema foi resolvido."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence-tradeoffs
+    attributes:
+      label: "Evidências, prós e contras"
+      description: "Apresente observações relevantes ou fontes oficiais. Diferencie evidências de suposições. Explique qualquer efeito no escopo, nas decisões do usuário ou na manutenção."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternativas"
+      description: "Descreva as alternativas que você considerou, se for relevante."
+    validations:
+      required: false

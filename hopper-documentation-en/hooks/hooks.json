@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/hopper_documentation.py\" hook",
+            "async": true,
+            "asyncRewake": true,
+            "timeout": 3600,
+            "statusMessage": "Recording the conversation handoff in the background"
+          }
+        ]
+      }
+    ]
+  }
+}
