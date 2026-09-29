@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+Plugin display name fixed to `hopper-documentation`, matching the skill name and CLI identifier. No changes to the skill, program, or hooks.
+
 ## 0.1.0
 
 First version.

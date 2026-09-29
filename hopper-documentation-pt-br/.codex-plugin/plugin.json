@@ -1,12 +1,20 @@
 {
   "name": "hopper-documentation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Registra handoffs da conversa para outra pessoa ou IA continuar o trabalho, a pedido e antes da compactação.",
-  "author": {"name": "Jonathan Honorio", "url": "https://github.com/jonathanpah"},
+  "author": {
+    "name": "Jonathan Honorio",
+    "url": "https://github.com/jonathanpah"
+  },
   "homepage": "https://github.com/jonathanpah/hopper-documentation",
   "repository": "https://github.com/jonathanpah/hopper-documentation",
   "license": "MIT",
-  "keywords": ["documentação", "handoff", "continuidade", "compactação"],
+  "keywords": [
+    "documentação",
+    "handoff",
+    "continuidade",
+    "compactação"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "hopper-documentation",
@@ -14,7 +22,12 @@
     "longDescription": "Registra o que outra pessoa ou IA precisa para continuar o trabalho: estado, pautas, decisões e pendências, a pedido e antes da compactação.",
     "developerName": "Jonathan Honorio",
     "category": "Productivity",
-    "capabilities": ["Interactive", "Write"],
-    "defaultPrompt": ["Use a hopper-documentation para registrar esta conversa."]
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use a hopper-documentation para registrar esta conversa."
+    ]
   }
 }

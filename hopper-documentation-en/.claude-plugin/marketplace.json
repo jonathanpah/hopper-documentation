@@ -9,7 +9,8 @@
     {
       "name": "hopper-documentation",
       "source": "./",
-      "description": "Records conversation handoffs so another person or AI can continue the work, on request and before compaction."
+      "description": "Records conversation handoffs so another person or AI can continue the work, on request and before compaction.",
+      "displayName": "hopper-documentation"
     }
   ]
 }

@@ -9,7 +9,8 @@
     {
       "name": "hopper-documentation",
       "source": "./",
-      "description": "Registra handoffs da conversa para outra pessoa ou IA continuar o trabalho, a pedido e antes da compactação."
+      "description": "Registra handoffs da conversa para outra pessoa ou IA continuar o trabalho, a pedido e antes da compactação.",
+      "displayName": "hopper-documentation"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "hopper-documentation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Records conversation handoffs so another person or AI can continue the work, on request and before compaction.",
   "author": {
     "name": "Jonathan Honorio",
@@ -14,5 +14,6 @@
     "handoff",
     "continuity",
     "compaction"
-  ]
+  ],
+  "displayName": "hopper-documentation"
 }

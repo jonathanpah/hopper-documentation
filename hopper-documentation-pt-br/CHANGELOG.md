@@ -1,5 +1,9 @@
 # Registro de mudanças
 
+## 0.1.1
+
+Nome de exibição do plugin fixado em `hopper-documentation`, igual ao nome da skill e ao identificador usado nas CLIs. Sem alterações na skill, no programa ou nos hooks.
+
 ## 0.1.0
 
 Primeira versão.
